@@ -1,0 +1,14 @@
+# Virtual Environment
+env/
+.env
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Ignore Raw Data (GitHub par heavy CSV upload nahi karni chahiye)
+DATA/*.csv
+!DATA/dashboard_exports/*.csv
+
+# Python Cache
+__pycache__/
+*.pyc
